@@ -1,0 +1,1 @@
+这是基于HTML/BootStrap/AngularJS实现的SPA，重点学习了AngularJS中的前端MVC，自定义directive指令，Route和多视图，表单验证指令，双向绑定和过滤器，AJAX交互
