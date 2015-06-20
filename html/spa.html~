@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html data-ng-app="APP">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+</head>
+<body>
+
+<div class="pagewidth" id="header">
+    <a name="top"></a>
+    <div class="jumbotron">
+        <h1>Jumbotron</h1>
+        <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p>
+            <a href="#/default" class="btn btn-blue">Default</a>
+            <a href="#/form" class="btn btn-green">Form</a>
+            <a href="#/search" class="btn btn-orange">Search</a>
+            <a href="#/tab" class="btn btn-red">Tab</a>
+        </p>
+    </div>
+</div>
+
+
+<div data-ng-view></div>
+
+
+<div class="pagewidth">
+    <ul class="list-unstyled">
+        <li class="pull-right"><a href="#top">Back to top</a></li>
+    </ul>
+    <br>
+
+    <p>Made by thanraytian. Contact me at thanray@tencent.com.</p>
+
+    <p>Code released under the MIT License.</p>
+
+    <p>Based on Bootstrap. Icons from Font Awesome. Web fonts from Google.</p>
+</div>
+
+
+<script src="/bower_components/angular/angular.js"></script>
+<script src="/bower_components/angular-route/angular-route.js"></script>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../js/application.js"></script>
+<script src="../js/controllers.js"></script>
+<script src="../js/services.js"></script>
+<script src="../js/directives.js"></script>
+
+</body>
+</html>

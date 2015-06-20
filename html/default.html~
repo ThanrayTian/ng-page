@@ -1,0 +1,15 @@
+<div class="pagewidth">
+    <div class="panel panel-blue">
+        <div class="panel-heading">
+            <h3 class="panel-title">default</h3>
+        </div>
+        <div class="panel-body">
+        	<p>
+        		This is thanray's pratise demo while studying angularjs.<br>
+        		It takes me three days to complete this SPA (single page application).<br>
+        		AngularJS amazing me with its binding and routing ability.
+        		I also use BootStrap, which is a css format, to build this beautiful page.
+        	</p>
+        </div>
+    </div>
+</div>
